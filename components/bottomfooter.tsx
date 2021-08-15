@@ -19,6 +19,7 @@ const BottomFooter = () => {
             <div key={item.name} className='px-5 py-2'>
               <a
                 target='_blank'
+                rel='noreferrer'
                 href={item.href}
                 className='text-base text-r hover:text-j'
               >
