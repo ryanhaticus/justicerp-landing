@@ -70,7 +70,7 @@ const Index = () => {
               leaveFrom='translate-x-0'
               leaveTo='-translate-x-full'
             >
-              <div className='relative max-w-xs w-full bg-r shadow-xl pb-12 flex flex-col overflow-y-auto'>
+              <div className='relative max-w-xs w-full bg-d shadow-xl pb-12 flex flex-col overflow-y-auto'>
                 <div className='px-4 pt-5 pb-2 flex'>
                   <button
                     type='button'
@@ -84,7 +84,7 @@ const Index = () => {
 
                 {/* Links */}
                 <Tab.Group as='div' className='mt-2'>
-                  <div className='border-b border-gray-200'>
+                  <div className='border-b border-j'>
                     <Tab.List className='-mb-px flex px-4 space-x-8'>
                       {navigation.categories.map((category) => (
                         <Tab
@@ -92,7 +92,7 @@ const Index = () => {
                           className={({ selected }) =>
                             classNames(
                               selected
-                                ? 'text-indigo-600 border-indigo-600'
+                                ? 'text-indigo-600 border-j'
                                 : 'text-gray-900 border-transparent',
                               'flex-1 whitespace-nowrap py-4 px-1 border-b-2 text-base font-medium'
                             )
@@ -169,7 +169,7 @@ const Index = () => {
                   </Tab.Panels>
                 </Tab.Group>
 
-                <div className='border-t border-gray-200 py-6 px-4 space-y-6'>
+                <div className='border-t border-j py-6 px-4 space-y-6'>
                   {navigation.pages.map((page) => (
                     <div key={page.name} className='flow-root'>
                       <a
@@ -180,25 +180,6 @@ const Index = () => {
                       </a>
                     </div>
                   ))}
-                </div>
-
-                <div className='border-t border-gray-200 py-6 px-4 space-y-6'>
-                  <div className='flow-root'>
-                    <a
-                      href='#'
-                      className='-m-2 p-2 block font-medium text-gray-900'
-                    >
-                      Sign in
-                    </a>
-                  </div>
-                  <div className='flow-root'>
-                    <a
-                      href='#'
-                      className='-m-2 p-2 block font-medium text-gray-900'
-                    >
-                      Create account
-                    </a>
-                  </div>
                 </div>
               </div>
             </Transition.Child>
@@ -212,7 +193,7 @@ const Index = () => {
               <div className='h-36 flex items-center'>
                 <button
                   type='button'
-                  className='bg-r p-2 rounded-md text-gray-400 lg:hidden'
+                  className='bg-d p-2 rounded-md text-j lg:hidden'
                   onClick={() => setOpen(true)}
                 >
                   <span className='sr-only'>Open menu</span>
