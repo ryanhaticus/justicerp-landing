@@ -368,7 +368,7 @@ const Index = () => {
                   Level up your JusticeRP experience
                 </h2>
                 <a
-                  href='#'
+                  href='https://store.justicerp.xyz/'
                   target='_blank'
                   className='hidden text-sm font-semibold text-p hover:text-j sm:block'
                 >
