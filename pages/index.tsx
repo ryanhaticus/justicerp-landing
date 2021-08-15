@@ -4,8 +4,6 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { NextSeo } from 'next-seo';
 import BottomFooter from '../components/bottomfooter';
 
-import Image from 'next/image';
-
 const navigation = {
   categories: [],
   pages: [
@@ -118,7 +116,7 @@ const Index = () => {
                               className='group relative text-sm'
                             >
                               <div className='aspect-w-1 aspect-h-1 rounded-lg bg-gray-100 overflow-hidden group-hover:opacity-75'>
-                                <Image
+                                <img
                                   src={item.imageSrc}
                                   alt={item.imageAlt}
                                   className='object-center object-cover'
@@ -224,7 +222,7 @@ const Index = () => {
                 <div className='ml-4 flex lg:ml-0'>
                   <span>
                     <span className='sr-only'>JusticeRP</span>
-                    <Image
+                    <img
                       className='h-20 w-auto'
                       src='/jrp.png'
                       alt='JusticeRP logo featuring a car, red white and blue lettering, and a blue city background.'
@@ -288,14 +286,14 @@ const Index = () => {
                       <div className='flex items-center space-x-6 lg:space-x-8'>
                         <div className='flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8'>
                           <div className='w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100'>
-                            <Image
+                            <img
                               src='8.jpg'
                               alt='GTA 5 Cinematic'
                               className='w-full h-full object-center object-cover'
                             />
                           </div>
                           <div className='w-44 h-64 rounded-lg overflow-hidden'>
-                            <Image
+                            <img
                               src='2.jpg'
                               alt='GTA 5 Cinematic'
                               className='w-full h-full object-center object-cover'
@@ -304,21 +302,21 @@ const Index = () => {
                         </div>
                         <div className='flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8'>
                           <div className='w-44 h-64 rounded-lg overflow-hidden'>
-                            <Image
+                            <img
                               src='3.jpg'
                               alt='GTA 5 Cinematic'
                               className='w-full h-full object-center object-cover'
                             />
                           </div>
                           <div className='w-44 h-64 rounded-lg overflow-hidden'>
-                            <Image
+                            <img
                               src='4.png'
                               alt='GTA 5 Cinematic'
                               className='w-full h-full object-center object-cover'
                             />
                           </div>
                           <div className='w-44 h-64 rounded-lg overflow-hidden'>
-                            <Image
+                            <img
                               src='5.png'
                               alt='GTA 5 Cinematic'
                               className='w-full h-full object-center object-cover'
@@ -327,14 +325,14 @@ const Index = () => {
                         </div>
                         <div className='flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8'>
                           <div className='w-44 h-64 rounded-lg overflow-hidden'>
-                            <Image
+                            <img
                               src='6.jpg'
                               alt='GTA 5 Cinematic'
                               className='w-full h-full object-center object-cover'
                             />
                           </div>
                           <div className='w-44 h-64 rounded-lg overflow-hidden'>
-                            <Image
+                            <img
                               src='7.jpg'
                               alt='GTA 5 Cinematic'
                               className='w-full h-full object-center object-cover'
@@ -381,7 +379,7 @@ const Index = () => {
 
               <div className='mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8'>
                 <div className='group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2'>
-                  <Image
+                  <img
                     src='/police.png'
                     alt='A GTA 5 police charger with its lights on.'
                     className='object-center object-cover group-hover:opacity-75'
@@ -408,7 +406,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className='group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full'>
-                  <Image
+                  <img
                     src='/weapons.png'
                     alt='A GTA 5 character holding an assault rifle.'
                     className='object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full'
@@ -435,7 +433,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className='group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full'>
-                  <Image
+                  <img
                     src='/supercar.png'
                     alt='A GTA 5 super car driving over a bridge.'
                     className='object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full'
