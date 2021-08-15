@@ -238,6 +238,7 @@ const Index = () => {
                         key={page.name}
                         href={page.href}
                         target='_blank'
+                        rel='noreferrer'
                         className='flex items-center text-md font-medium text-r hover:text-j'
                       >
                         {page.name}
@@ -247,7 +248,11 @@ const Index = () => {
                 </Popover.Group>
 
                 <div className='ml-auto flex items-center'>
-                  <a href='https://status.justicerp.xyz' target='_blank'>
+                  <a
+                    href='https://status.justicerp.xyz'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
                     <div className='text-md font-medium hidden bg-d px-4 py-2 text-j hover:bg-j hover:text-r rounded-full shadow-lg lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6'>
                       <span>
                         {playerDetails.fetched
@@ -346,6 +351,7 @@ const Index = () => {
                   <a
                     href='https://cfx.re/join/nomvq7'
                     target='_blank'
+                    rel='noreferrer'
                     className='inline-block text-center bg-p border border-transparent rounded-md py-3 px-8 font-medium text-r hover:bg-j'
                   >
                     Connect now
@@ -370,6 +376,7 @@ const Index = () => {
                 <a
                   href='https://store.justicerp.xyz/'
                   target='_blank'
+                  rel='noreferrer'
                   className='hidden text-sm font-semibold text-p hover:text-j sm:block'
                 >
                   View our full store menu
@@ -393,6 +400,7 @@ const Index = () => {
                       <h3 className='font-semibold text-r'>
                         <a
                           target='_blank'
+                          rel='noreferrer'
                           href='https://store.justicerp.xyz/category/leo-vehicle-packs'
                         >
                           <span className='absolute inset-0' />
@@ -420,6 +428,7 @@ const Index = () => {
                       <h3 className='font-semibold text-r'>
                         <a
                           target='_blank'
+                          rel='noreferrer'
                           href='https://store.justicerp.xyz/category/weapons'
                         >
                           <span className='absolute inset-0' />
@@ -447,6 +456,7 @@ const Index = () => {
                       <h3 className='font-semibold text-r'>
                         <a
                           target='_blank'
+                          rel='noreferrer'
                           href='https://store.justicerp.xyz/category/civilian-vehicle-pac'
                         >
                           <span className='absolute inset-0' />
