@@ -1,6 +1,5 @@
 const FiveM = require('fivem');
 
-// API?
 const handler = async (req, res) => {
   const server = new FiveM.Server('51.81.48.166:30135');
   const players = await server.getPlayers();

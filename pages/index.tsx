@@ -33,7 +33,7 @@ const Index = () => {
   });
   useEffect(() => {
     (async () => {
-      const req = await fetch('/api/server');
+      const req = await fetch('https://justicerp-landing.vercel.app/api/count');
       const json = await req.json();
       setPlayerDetails(json as PlayerDetails);
     })();
