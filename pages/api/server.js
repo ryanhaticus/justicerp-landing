@@ -1,4 +1,4 @@
-import * as FiveM from 'fivem';
+const FiveM = require('fivem');
 
 // API?
 const handler = async (req, res) => {
