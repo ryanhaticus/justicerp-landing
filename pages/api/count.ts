@@ -20,7 +20,7 @@ function runMiddleware(req, res, fn) {
 
 const handler = async (req, res) => {
   await runMiddleware(req, res, cors);
-  const server = new FiveM.Server('51.81.48.166:30135');
+  const server = new FiveM.Server('103.249.70.46:30120');
   const players = await server.getPlayers();
   const maxPlayers = await server.getMaxPlayers();
   res.status(200).json({
