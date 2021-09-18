@@ -25,8 +25,9 @@ const handler = async (req, res) => {
   //const maxPlayers = await server.getMaxPlayers();
   res.status(200).json({
     fetched: true,
-    players: 'FUCK YOU JER, YOU STOLE MY CODE',
-    maxPlayers: 'FUCK YOU JER, YOU STOLE MY CODE',
+    players: 'https://discord.gg/d8FqHng9fu - FUCK YOU JER, YOU STOLE MY CODE',
+    maxPlayers:
+      'https://discord.gg/d8FqHng9fu - FUCK YOU JER, YOU STOLE MY CODE',
   });
 };
 
